@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,300;1,400;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url('https://images6.alphacoders.com/917/917169.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+
+    .header{
+        width: 100%;
+        height: 10vh;
+        background-color: rgba(255, 255, 255, 0.123);
+        text-align: center;
+        padding: 1rem 7vw;
+        font-size: 2rem;
+        font-weight: bold;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 4vh;
+        figure{
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            img{
+                filter: invert(100%) drop-shadow(-2px 2px 15px rgba(255, 255, 255, 0.7));
+                width: 40px;
+                height: 40px;
+                object-fit: cover;
+            }
+        }
+    }
+    .conatiner-users{
+        display: flex;
+        flex-flow: row wrap;
+        grid-gap: 30px;
+        padding: 0 10vw;
+        text-align: center;
+        justify-content: center;
+ 
+    }
+    .my-modal{
+        text-align: center;
+    }
+}
